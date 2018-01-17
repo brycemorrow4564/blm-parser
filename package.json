@@ -1,0 +1,14 @@
+{
+  "name": "blm-parser",
+  "version": "1.0.0",
+  "description": "Take a BLM file as input. loop over each row and return an array of objects, each object representing a line on the file.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "BLM", 
+    "Parser", 
+    "File"
+  ],
+  "author": "Bryce Morrow",
+  "license": "ISC"
+}
