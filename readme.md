@@ -6,13 +6,13 @@ the property value mappings as defined by the file.
 
 Usage:
 
-let parser = require('blm-parser');\n
-parser.parseBlmFile("./test.blm", (err, result) => {\n
-    \tif (err) {\n
-        \t\tconsole.log(err);\n
-        \t\treturn;\n
-    \t}\n
-    \t//If no error then result is the JSON object containing file data\n
-    \tconsole.log(result);\n
+let parser = require('blm-parser');
+parser.parseBlmFile("./test.blm", (err, result) => {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    //If no error then result is the JSON object containing file data
+    console.log(result);
 });
 
