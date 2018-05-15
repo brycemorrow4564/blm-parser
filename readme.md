@@ -19,3 +19,6 @@ parser.parseBlmFile("./test.blm", (err, result) => {
     console.log(result);
 });
 ```
+
+## NPM
+https://www.npmjs.com/package/blm-parser
