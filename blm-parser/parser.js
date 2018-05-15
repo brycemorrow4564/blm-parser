@@ -9,7 +9,7 @@ module.exports = (function() {
     
     let doneCallback; 
 
-/*  Define general event for propogating errors up to module user level. 
+/*  Define general event for propagating errors up to module user level.
     Each error passed to errEmitter will have a message property, which will generally 
     describe the location in our code in which the error was encountered, as well as an 
     error property. Which will contain the error thrown. This may sometimes contain 
@@ -234,7 +234,6 @@ module.exports = (function() {
                 }); 
             }
         )
-        return parsePromise; 
     };
 
     //Single external access point for module 

@@ -1,10 +1,14 @@
 {
   "name": "blm-parser",
-  "version": "0.1.0",
-  "description": "Take a BLM file as input. loop over each row and return an array of objects, each object representing a line on the file.",
+  "version": "1.0.0",
+  "author": "Bryce Morrow",
+  "license": "ISC",
+  "homepage": "https://github.com/brycemorrow4564/blm-parser",
+  "description": ".blm files are a real estate specific file format developed by Rightmove, a British-based company that runs www.rightmove.co.uk, an online real estate portal. The format definition is available at http://www.rightmove.co.uk/ps/pdf/guides/RightmoveDatafeedFormatV3iOVS_1.5.pdf. It is essentially just a specialized csv format. The module input is the file path of a .blm file and the output of the module is a json object containing the property value mappings as defined by the file.",
   "main": "index.js",
-  "scripts": {
-    "test": "node test/test.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brycemorrow4564/blm-parser.git"
   },
   "engines": {
     "node": ">=5.6.0"
@@ -14,7 +18,5 @@
     "Parser",
     "File"
   ],
-  "author": "Bryce Morrow",
-  "license": "ISC",
   "dependencies": {}
 }
