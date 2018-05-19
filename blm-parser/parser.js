@@ -68,7 +68,7 @@ module.exports = (function() {
             let stream      = fs.createReadStream(fileHandle), 
                 chunks      = [],
                 fileStr;
-            stream.on('error', ()      => { reject(new Error('')); });
+            stream.on('error', (err)   => { reject(err); });
             stream.on('data',  (chunk) => { chunks.push(chunk); }); 
             stream.on('end',   ()      => { resolve(Buffer.concat(chunks).toString()); });
         }); 
